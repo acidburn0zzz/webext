@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Bug 1411691 test",
+  "description": "",
+  "version": "1.0", 
+  "author": "",
+  "applications": {
+    "gecko": {
+        "id": "bug1411691-test@bug"
+    }
+  },
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "permissions": [
+      "storage"
+  ]
+}
